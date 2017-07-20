@@ -1,9 +1,3 @@
-#References:
-#https://www.dfrws.org/sites/default/files/session-files/paper-an_analysis_of_ext4_for_digital_forensics.pdf
-#https://www.ibm.com/developerworks/library/l-anatomy-ext4/
-#https://digital-forensics.sans.org/blog/2010/12/20/digital-forensics-understanding-ext4-part-1-extents
-#http://homepage.smc.edu/morgan_david/cs40/analyze-ext2.htm
-#https://ext4.wiki.kernel.org/index.php/Ext4_Disk_Layout
 #Create test fs image
 #dd count=4096 if=/dev/zero of=testfs.ext4
 #dd if=/dev/zero of=testfs.ext4 bs=1024 count=131072
