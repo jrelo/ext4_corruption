@@ -1,0 +1,26 @@
+htree_dirblock_to_tree:913: inode #8478995: block 33773994: comm php: bad entry in directory: directory entry across range - offset=0(0), inode=1042444897, rec_len=12092, name_len=100
+htree_dirblock_to_tree:913: inode #8479007: block 33775579: comm php: bad entry in directory: rec_len is smaller than minimal - offset=0(0), inode=559903, rec_len=0, name_len=0
+htree_dirblock_to_tree:913: inode #8478999: block 33774221: comm php: bad entry in directory: rec_len % 4 != 0 - offset=0(0), inode=1196314761, rec_len=2573, name_len=26
+ext4_lookup:1430: inode #8478971: comm php: deleted inode referenced: 8467464
+ext4_mb_generate_buddy:756: group 9219, block bitmap and bg descriptor inconsistent: 25144 vs 25145 free clusters
+ext4_mb_generate_buddy: EXT4-fs: group 54094: 3043 blocks in bitmap, 3040 in gd
+mb_free_blocks: double-free of inode 0's block 352295367(bit 6599 in group 10751)
+mb_free_blocks:1446: group 2433, inode 19929968: block 79749133:freeing already freed block (bit 24589); block bitmap corrupt.
+ext4_mb_generate_buddy:756: group 2433, block bitmap and bg descriptor inconsistent: 5194 vs 5195 free clusters
+ext4_iget:4191: inode #267286: comm php-cgi: bad extended attribute block 2720533120
+htree_dirblock_to_tree:587: inode #404544002: block 6422531607: comm updatedb.mlocat: bad entry in directory: directory entry across blocks - offset=0(0), inode=540226868, rec_len=11824, name_len=54
+ext4_iget: block reference 1073741824 >= max (15328018) in inode #3638451, offset=3
+ __ext4_new_inode:987: comm pure-quotacheck: failed to insert inode 31064187: doubly allocated?
+ext4_mb_generate_buddy:739: group 9560, 5 clusters in bitmap, 6 in gd
+ext4_mb_generate_buddy:739: group 9490, 1 clusters in bitmap, 4 in gd
+ext4_mb_generate_buddy:756: group 7809, block bitmap and bg descriptor inconsistent: 5444 vs 5445 free clusters
+mb_free_blocks:1437: group 7809, inode 63970523: block 255900800:freeing already freed block (bit 15488); block bitmap corrupt.
+ext4_free_inode:323: comm pop3: bit already cleared for inode 1980909
+ext4_iget:4252: inode #3681778: comm find: bogus i_mode (71473)
+ext4_mb_generate_buddy:756: group 6114, block bitmap and bg descriptor inconsistent: 19758 vs 19760 free clusters
+in ext4_reserve_inode_write:4917: Journal has aborted
+in ext4_free_blocks:4882: IO failure
+ext4_ext_check_inode:479: inode #30149665: comm pure-quotacheck: pblk 0 bad header/extent: invalid magic - magic 0, entries 0, max 0(0), depth 0(0)
+ext4_ext_check_inode:481: inode #30150001: comm rsync3: pblk 0 bad header/extent: invalid magic - magic 0, entries 0, max 0(0), depth 0(0)
+ext4_lookup: deleted inode referenced: 450101477
+ext4_iget:4070: inode #535852: comm php: bad extra_isize (15010 != 256)
