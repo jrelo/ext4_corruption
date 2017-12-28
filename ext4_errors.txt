@@ -24,3 +24,4 @@ ext4_ext_check_inode:479: inode #30149665: comm pure-quotacheck: pblk 0 bad head
 ext4_ext_check_inode:481: inode #30150001: comm rsync3: pblk 0 bad header/extent: invalid magic - magic 0, entries 0, max 0(0), depth 0(0)
 ext4_lookup: deleted inode referenced: 450101477
 ext4_iget:4070: inode #535852: comm php: bad extra_isize (15010 != 256)
+empty_dir:2473: bad directory (dir #72881928) - no `.' or `..'
